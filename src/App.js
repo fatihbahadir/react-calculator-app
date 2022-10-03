@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState } from 'react';
 function App() {
     const[calc,setCalc]=useState("")
-    const ops=["/","*","+",".","%","0"]
+    const ops=["/","*","+",".","%"]
 
     const updateCalc=value=>{
       if(
